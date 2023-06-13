@@ -5,19 +5,31 @@
     <h1>Login</h1>
     <div class="content">
       <div class="input-field">
-        <input type="email" placeholder="Email" autocomplete="nope">
+        <input type="email" placeholder="Email" @bind="Email" autocomplete="nope">
       </div>
       <div class="input-field">
-        <input type="password" placeholder="Password" autocomplete="new-password">
+        <input type="password" placeholder="Password" @bind="Password" autocomplete="new-password">
       </div>
     </div>
     <div class="action">
       <button>Register</button>
-      <button>Sign in</button>
+      <button @onclick="SignIn">Sign in</button>
     </div>
   </form>
 </div>
 
 @code {
+  private string Email { get; set; }
+  private string Password { get; set; }
+  
+  [Inject]
+  private NavigationManager? NavigationManager { get; set; }
+  
+  private void SignIn()
+  {
     
+    // TODO: Login auth here
+
+    NavigationManager!.NavigateTo("/dashboard/", true);
+  }
 }

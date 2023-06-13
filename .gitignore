@@ -1,2 +1,5 @@
 ﻿.idea/
 .dockerignore
+src/obj/
+src/bin/
+.vscode/

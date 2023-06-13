@@ -325,3 +325,4 @@ src/bin/
 /obj/Debug/net7.0/staticwebassets.build.json
 /obj/Debug/net7.0/staticwebassets.development.json
 /obj/Debug/net7.0/staticwebassets.pack.json
+/obj/Debug/net7.0/scopedcss/Pages/Login.razor.rz.scp.css

@@ -3,6 +3,8 @@
 src/obj/
 src/bin/
 .vscode/
+appsettings.json
+Migrations/
 /SPA-stocks/obj/Debug/net7.0/.NETCoreApp,Version=v7.0.AssemblyAttributes.cs
 /packages/Antlr.3.5.0.2/.signature.p7s
 /packages/bootstrap.3.4.1/.signature.p7s

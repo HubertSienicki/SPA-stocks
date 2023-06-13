@@ -3,7 +3,6 @@
 src/obj/
 src/bin/
 .vscode/
-appsettings.json
 Migrations/
 /SPA-stocks/obj/Debug/net7.0/.NETCoreApp,Version=v7.0.AssemblyAttributes.cs
 /packages/Antlr.3.5.0.2/.signature.p7s
@@ -328,3 +327,7 @@ Migrations/
 /obj/Debug/net7.0/staticwebassets.development.json
 /obj/Debug/net7.0/staticwebassets.pack.json
 /obj/Debug/net7.0/scopedcss/Pages/Login.razor.rz.scp.css
+SPA-stocks/appsettings.json
+SPA-stocks/appsettings.json
+SPA-stocks/appsettings.json
+SPA-stocks/appsettings.json
